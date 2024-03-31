@@ -15,7 +15,6 @@ App for students who want to learn to play an instrument. They can find a list o
 <ul>
     <li>Front End: HTML, CSS and React</li>
     <li>Back End: Java, but specifically: collections, streams, multithreading, generics, lambda expressions, annotations, OOP</li>
-    <li>TDD: Junit</li>
     <li>Database connectivity: MySQL</li>
     <li>Maven</li>
     <li>Apache Tomcat</li>
