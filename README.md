@@ -1,4 +1,4 @@
-# MusicSchool
+# Music School
 App for students who want to learn to play an instrument. They can find a list of instructors and courses to sign up for.
 
 <h5>What will be included</h5>
