@@ -13,7 +13,7 @@ App for students who want to learn to play an instrument. They can find a list o
 
 <h5>Tech Stack</h5>
 <ul>
-    <li>Front End: HTML, CSS and React</li>
+    <li>Front End: HTML, CSS, Javascript and React</li>
     <li>Back End: Java, but specifically: collections, streams, multithreading, generics, lambda expressions, annotations, OOP</li>
     <li>Database connectivity: MySQL</li>
     <li>Maven</li>
