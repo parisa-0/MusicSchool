@@ -19,7 +19,6 @@ App for students who want to learn to play an instrument. They can find a list o
     <li>Maven</li>
     <li>Apache Tomcat</li>
     <li>Design Patterns</li>
-    <li>Kafka</li>
     <li>Session & Scopes</li>
     <li>Security</li>
 </ul>
