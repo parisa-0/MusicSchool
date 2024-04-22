@@ -13,14 +13,14 @@ public class CourseService {
 
     Map<Instructor, Courses> coursesInstructorMap = new HashMap<>();
 
-    Set<Courses> coursesSet = new HashSet<>();
-    List<Bookings> bookings = new LinkedList<>();
+    static Set<Courses> coursesSet = new HashSet<>();
+    static List<Bookings> bookings = new LinkedList<>();
 
     public void addCourse(Courses course) {
         coursesSet.add(course);
     }
 
-    public Courses getCourse(String courseId) {
+    public static Courses getCourse(String courseId) {
         for (Courses courses : coursesSet) {
             if(Courses.getCourseID().equals(courseId)) {
                 return courses;
@@ -29,8 +29,8 @@ public class CourseService {
         return null;
     }
 
-    public void bookACourse(Instructor instructor, Courses courses, Date startDate, Date endDate) {
-        Bookings newBooking = new Bookings(instructor, courses, startDate, endDate);
+    public static void bookACourse(String bookingId, Instructor instructor, Courses courses, Date startDate, Date endDate) {
+        Bookings newBooking = new Bookings(bookingId, instructor, courses, startDate, endDate);
         bookings.add(newBooking);
     }
 

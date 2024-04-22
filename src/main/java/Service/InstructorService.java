@@ -3,9 +3,7 @@ package Service;
 import Model.Courses;
 import Model.Instructor;
 
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class InstructorService {
 
@@ -23,14 +21,14 @@ public class InstructorService {
         this.instructorId = instructorId;
     }
 
-    Set<Instructor> instructorSet = new HashSet<>();
+    static List<Instructor> instructorSet = new ArrayList<>();
 
-    public void addInstructor(String username, String password, String firstName, String lastName, String instructorId, Courses courseId) {
+    public static void addInstructor(String username, String password, String firstName, String lastName, String instructorId, Courses courseId) {
         Instructor instructor = new Instructor(username, password, firstName, lastName, instructorId, courseId);
         instructorSet.add(instructor);
     }
 
-    public Instructor getInstructor(String instructorId) {
+    public static Instructor getInstructor(String instructorId) {
         for (Instructor instructor : instructorSet) {
             if(instructor.getInstructorId().equals(instructorId)) {
                 return instructor;
