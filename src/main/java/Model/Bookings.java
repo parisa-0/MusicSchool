@@ -16,4 +16,6 @@ public class Bookings {
         this.startDate = startDate;
         this.endDate = endDate;
     }
+
+    //https://docs.spring.io/spring-framework/reference/core/beans/factory-scopes.html#beans-factory-scopes-singleton
 }

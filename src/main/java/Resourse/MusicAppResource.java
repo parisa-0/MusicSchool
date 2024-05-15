@@ -1,6 +1,13 @@
 package Resourse;
 
+//https://vaadin.com
+
 //https://miacwyan.medium.com/how-to-develop-and-deploy-your-web-app-angular-tomcat-server-mysql-part-3-b332fe10d3e4
+/*
+utility package and helper class and static method with http client
+jakarta ee and microprofile
+*/
+
 
 import Model.Bookings;
 import Model.Courses;
@@ -17,6 +24,7 @@ public class MusicAppResource {
     book a course
     get instructor course
     find a course between start and end date
+    https://stackoverflow.com/questions/1322335/what-is-the-best-java-library-to-use-for-http-post-get-etc
      */
 
     public static Instructor getInstructor(String instructorId) {
